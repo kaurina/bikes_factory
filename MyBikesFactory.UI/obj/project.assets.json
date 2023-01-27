@@ -1,0 +1,121 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "MyBikesFactory.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MyBikesFactory.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyBikesFactory.Business.dll": {}
+        }
+      },
+      "MyBikesFactory.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MyBikesFactory.Business": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MyBikesFactory.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyBikesFactory.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyBikesFactory.Business/1.0.0": {
+      "type": "project",
+      "path": "../MyBikesFactory.Business/MyBikesFactory.Business.csproj",
+      "msbuildProject": "../MyBikesFactory.Business/MyBikesFactory.Business.csproj"
+    },
+    "MyBikesFactory.Data/1.0.0": {
+      "type": "project",
+      "path": "../MyBikesFactory.Data/MyBikesFactory.Data.csproj",
+      "msbuildProject": "../MyBikesFactory.Data/MyBikesFactory.Data.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "MyBikesFactory.Business >= 1.0.0",
+      "MyBikesFactory.Data >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mande\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\mande\\source\\repos\\OOP\\MyBikesFactory_Mandeep\\MyBikesFactory\\MyBikesFactory.UI\\MyBikesFactory.UI.csproj",
+      "projectName": "MyBikesFactory.UI",
+      "projectPath": "C:\\Users\\mande\\source\\repos\\OOP\\MyBikesFactory_Mandeep\\MyBikesFactory\\MyBikesFactory.UI\\MyBikesFactory.UI.csproj",
+      "packagesPath": "C:\\Users\\mande\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mande\\source\\repos\\OOP\\MyBikesFactory_Mandeep\\MyBikesFactory\\MyBikesFactory.UI\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\mande\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\mande\\source\\repos\\OOP\\MyBikesFactory_Mandeep\\MyBikesFactory\\MyBikesFactory.Business\\MyBikesFactory.Business.csproj": {
+              "projectPath": "C:\\Users\\mande\\source\\repos\\OOP\\MyBikesFactory_Mandeep\\MyBikesFactory\\MyBikesFactory.Business\\MyBikesFactory.Business.csproj"
+            },
+            "C:\\Users\\mande\\source\\repos\\OOP\\MyBikesFactory_Mandeep\\MyBikesFactory\\MyBikesFactory.Data\\MyBikesFactory.Data.csproj": {
+              "projectPath": "C:\\Users\\mande\\source\\repos\\OOP\\MyBikesFactory_Mandeep\\MyBikesFactory\\MyBikesFactory.Data\\MyBikesFactory.Data.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
